@@ -1,0 +1,56 @@
+body{
+font-family:Arial;
+margin:0;
+background:url("https://images.unsplash.com/photo-1509749837427-ac94a2553d0e") center/cover;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+width:95%;
+max-width:900px;
+background:rgba(255,255,255,0.95);
+padding:20px;
+border-radius:10px;
+}
+
+input,select,button{
+width:100%;
+padding:10px;
+margin:6px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+button{
+background:#667eea;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.section{
+display:none;
+margin-top:15px;
+}
+
+.pass{
+border:1px solid #ccc;
+padding:15px;
+margin-top:15px;
+border-radius:8px;
+}
+
+#map{
+height:300px;
+margin-top:10px;
+}
+
+.adminBox{
+background:#fff4e6;
+padding:10px;
+border-radius:8px;
+margin-top:10px;
+}
